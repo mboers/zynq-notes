@@ -572,6 +572,15 @@ pre code {
   border: none;
 }
 
+.highlight-title {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  text-shadow: none;
+  background: #fff;
+  border: solid 1px #f2f2f2;
+}
+
 ul, ol, dl {
   margin-bottom: 20px;
 }

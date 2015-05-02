@@ -1,4 +1,7 @@
 name: Zynq Casts
-markdown: redcarpet
+markdown: kramdown
 baseurl: /zynq-cast-1
 highlighter: pygments
+
+kramdown:
+  input: GFM
