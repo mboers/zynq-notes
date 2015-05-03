@@ -1,3 +1,4 @@
-# zynq-cast-1
+# zynq-notes
 
-View the tutorial here: http://mboers.github.io/zynq-cast-1/
+I have been playing with the Zynq devices as a hobby, some notes are available here:
+http://mboers.github.io/zynq-notes
