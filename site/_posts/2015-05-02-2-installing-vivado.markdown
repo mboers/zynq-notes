@@ -20,27 +20,27 @@ chmod 777 Xilinx_Vivado_SDK_2015.1_0428_1_Lin64.bin
 sudo ./Xilinx_Vivado_SDK_2015.1_0428_1_Lin64.bin
 {% endhighlight %}
 
-![Run these commands]({{ site.url }}/assets/note-2/install-vivado-1.png)
+![Run these commands]({{ site.baseurl }}/assets/note-2/install-vivado-1.png)
 
 The Vivado GUI will show up. Click next to continue.
 
-![Click Next]({{ site.url }}/assets/note-2/install-vivado-2.png)
+![Click Next]({{ site.baseurl }}/assets/note-2/install-vivado-2.png)
 
 We are going to use the free WebPACK license. Select that and click next.
 
-![Select WebPACK and click next]({{ site.url }}/assets/note-2/install-vivado-3.png)
+![Select WebPACK and click next]({{ site.baseurl }}/assets/note-2/install-vivado-3.png)
 
 We don't need the 7 series devices, just the Zynq. If you're going to use any 7 Series devices make sure to select them on this page. 
 
-![Select WebPACK and click next]({{ site.url }}/assets/note-2/install-vivado-4.png)
+![Select WebPACK and click next]({{ site.baseurl }}/assets/note-2/install-vivado-4.png)
 
 We will let the installer choose the default location and click 'Yes' to let it create `/opt/Xilinx` directory. 
 
-![Select WebPACK and click next]({{ site.url }}/assets/note-2/install-vivado-5.png)
+![Select WebPACK and click next]({{ site.baseurl }}/assets/note-2/install-vivado-5.png)
 
 Looks good, click next to download and install. 
 
-![Select WebPACK and click next]({{ site.url }}/assets/note-2/install-vivado-6.png)
+![Select WebPACK and click next]({{ site.baseurl }}/assets/note-2/install-vivado-6.png)
 
 We're done! Check the next post about running Vivado and creating a project.
 

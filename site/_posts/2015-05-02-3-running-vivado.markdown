@@ -36,8 +36,8 @@ vivado &
 
 Vivado starts up and we're ready to program!
 
-![Run these commands]({{ site.url }}/assets/note-3/run-vivado-1.png)
+![Run these commands]({{ site.baseurl }}/assets/note-3/run-vivado-1.png)
 
-![Run these commands]({{ site.url }}/assets/note-3/run-vivado-2.png)
+![Run these commands]({{ site.baseurl }}/assets/note-3/run-vivado-2.png)
 
 [Previous Note]({% post_url 2015-05-02-2-installing-vivado %}) - [Next Note]({% post_url 2015-05-02-4-adding-board-files %})

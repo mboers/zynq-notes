@@ -17,7 +17,7 @@ For the Picozed, there are several places to look for documentation.
 
 The board definition files are located in the [PicoZed carrier board](http://zedboard.org/support/documentation/4701) documentation. Navigate there and download the 'Board Definition Files'.
 
-![Download board definition files]({{ site.url }}/assets/note-4/install-bdf-1.png)
+![Download board definition files]({{ site.baseurl }}/assets/note-4/install-bdf-1.png)
 
 Unzip and copy the files from boards, the commands I used are below.
 
@@ -31,7 +31,7 @@ cp * /opt/Xilinx/Vivado/2015.1/data/boards/board_parts/zynq/
 
 The board files should be visible in the `/opt/Xilinx/Vivado/2015.1/data/boards/board_parts/zynq/` folder.
 
-![Download board definition files]({{ site.url }}/assets/note-4/install-bdf-2.png)
+![Download board definition files]({{ site.baseurl }}/assets/note-4/install-bdf-2.png)
 
 Now we're ready to make the first Vivado project! 
 
