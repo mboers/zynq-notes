@@ -1,6 +1,6 @@
 name: Tech Notes
 markdown: kramdown
-baseurl: /zynq-cast-1
+baseurl: /zynq-notes
 highlighter: pygments
 permalink: /:title
 kramdown:
