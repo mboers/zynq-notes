@@ -1,14 +1,92 @@
 ---
 layout: default
-title: Zynq Casts
+title: Tech Notes
 ---
 
 <div id="home">
-  <h2>Zynq Casts</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - <span>{{ post.date | date_to_string }}</span></li>
-      <p>{{ post.excerpt }}</p>
+    {% for post in site.posts reversed %}
+      
+
+      <div class="rowwrap">
+	  	<div class="screenshot">
+			<a href="{{ site.baseurl }}{{ post.url }}"><img alt="Note 1" height="125" src="{{ site.url }}/assets/screenshots/{{ post.screenshot }}" width="200" /></a>
+	  	</div>
+	  	<div class="details">
+	  		<div class="noteinfo"><span class="number">Note #{{ post.note }}</span> - <span>{{ post.date | date_to_string }}</span></div>
+	  		<div class="notehead">{{ post.title }}</div> 
+	  		<p>{{ post.excerpt }}</p>
+	  		<a href="{{ site.baseurl }}{{ post.url }}" class="pretty_button">Read Note</a>
+	  	</div>	
+	  </div>
+	  <div class="clear"></div>
+
     {% endfor %}
-  </ul>
+
+  
 </div>
+
+<style>
+	.rowwrap {
+   width:100%;
+   margin:0 auto;
+   min-height: 125px;
+   padding-bottom: 20px;
+   border-bottom: solid 1px #e5e5e5;
+   margin-bottom: 20px;
+}
+.screenshot {
+   float:left;
+}
+.details {
+   margin-left: 220px;
+}
+.details em {
+	font-size: 1em;
+}
+.details p {
+	margin:0;
+	padding:5px 0 10px 0;
+	line-height: 1.3;
+	color: #333;
+	min-height: 38px;
+}
+.clear {
+	clear: both;
+}
+.screenshot img {
+  border: solid 1px #999;
+  display: block;
+}
+.number {
+	text-transform: uppercase;
+  	font-weight: bold;
+}
+.noteinfo {
+	font-size: 13px;
+}
+.notehead {
+	color: #3882CE;
+	font-size: 18px;
+	font-weight: 600;
+}
+.pretty_button {
+  font-size: 13px;
+  padding: 5px 10px 6px 10px;
+  font-weight: bold;
+  border: 1px solid #466a98;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  color: #FFF;
+  background: #386FB2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#67b0ef), to(#2b5ea4));
+  background: -moz-linear-gradient(top, #67b0ef, #2b5ea4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67B0EF', endColorstr='#2B5EA4');
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #036;
+}
+a:hover {
+  color: #FFF;
+}
+
+</style>

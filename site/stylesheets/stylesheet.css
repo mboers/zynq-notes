@@ -483,6 +483,11 @@ header h2 {
   margin: 0 auto;
 }
 
+header .inner a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #content-wrapper {
   padding-top: 30px;
   border-top: solid 1px #fff;
@@ -727,9 +732,8 @@ p a {
 }
 
 blockquote {
-  padding: 0 0 0 30px;
+  padding: 0 0 0 20px;
   margin-bottom: 20px;
-  font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
 }
 

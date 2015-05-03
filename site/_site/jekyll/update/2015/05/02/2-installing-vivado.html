@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title> Installing Vivado on Ubuntu 14.04 </title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1> <a href="/">Tech Notes</a> </h1>
+        <h2>Notes for Zynq</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          
+          <h2>Installing Vivado on Ubuntu 14.04</h2>
+<p class="meta">02 May 2015</p>
+
+<p>We just <a href="/jekyll/update/2015/05/02/1-installing-ubuntu.html">installed Ubuntu on VMware in MAC</a>. Now we’re going to install Vivado so we can play with the Xilix Zynq device.</p>
+
+<p>For reference you can look at Vivado install notes: <a href="http://www.xilinx.com/support/documentation/sw_manuals/xilinx2015_1/ug973-vivado-release-notes-install-license.pdf">UG973 (v2015.1) April 1, 2015</a></p>
+
+<p>To start, open a terminal and run the following commands.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>Downloads/
+chmod <span class="m">777</span> Xilinx_Vivado_SDK_2015.1_0428_1_Lin64.bin
+sudo ./Xilinx_Vivado_SDK_2015.1_0428_1_Lin64.bin</code></pre></div>
+
+<p><img src="/assets/note-2/install-vivado-1.png" alt="Run these commands" /></p>
+
+<p>The Vivado GUI will show up. Click next to continue.</p>
+
+<p><img src="/assets/note-2/install-vivado-2.png" alt="Click Next" /></p>
+
+<p>We are going to use the free WebPACK license. Select that and click next.</p>
+
+<p><img src="/assets/note-2/install-vivado-3.png" alt="Select WebPACK and click next" /></p>
+
+<p>We don’t need the 7 series devices, just the Zynq. If you’re going to use any 7 Series devices make sure to select them on this page.</p>
+
+<p><img src="/assets/note-2/install-vivado-4.png" alt="Select WebPACK and click next" /></p>
+
+<p>We will let the installer choose the default location and click ‘Yes’ to let it create <code>/opt/Xilinx</code> directory.</p>
+
+<p><img src="/assets/note-2/install-vivado-5.png" alt="Select WebPACK and click next" /></p>
+
+<p>Looks good, click next to download and install.</p>
+
+<p><img src="/assets/note-2/install-vivado-6.png" alt="Select WebPACK and click next" /></p>
+
+<p>We’re done! Check the next post about running Vivado and creating a project.</p>
+
+<p><a href="/jekyll/update/2015/05/02/1-installing-ubuntu.html">Previous Note</a> - <a href="/jekyll/update/2015/05/02/3-running-vivado.html">Next Note</a></p>
+
+
+
+
+        </section>
+
+        
+      </div>
+    </div>
+
+  </body>
+</html>

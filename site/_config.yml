@@ -1,4 +1,4 @@
-name: Zynq Casts
+name: Tech Notes
 markdown: kramdown
 baseurl: /zynq-cast-1
 highlighter: pygments
