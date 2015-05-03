@@ -8,7 +8,7 @@ screenshot: note-2.jpg
 note: 2
 ---
 
-We just [installed Ubuntu on VMware in MAC]({% post_url 2015-05-02-1-installing-ubuntu %}). Now we're going to install Vivado so we can play with the Xilix Zynq device. 
+We just [installed Ubuntu on VMware in MAC]({{site.baseurl}}/1-installing-ubuntu). Now we're going to install Vivado so we can play with the Xilix Zynq device. 
 
 For reference you can look at Vivado install notes: [UG973 (v2015.1) April 1, 2015](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2015_1/ug973-vivado-release-notes-install-license.pdf)
 
