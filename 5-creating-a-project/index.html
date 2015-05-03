@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/zynq-cast-1/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/zynq-cast-1/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/zynq-cast-1/stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="/zynq-notes/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/zynq-notes/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/zynq-notes/stylesheets/print.css" media="print" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,7 +19,7 @@
   <body>
     <header>
       <div class="inner">
-        <h1> <a href="/zynq-cast-1/">Tech Notes</a> </h1>
+        <h1> <a href="/zynq-notes/">Tech Notes</a> </h1>
         <h2>Notes for Zynq</h2>
       </div>
     </header>
@@ -35,55 +35,55 @@
 
 <p>Open Vivado and select <strong>Create New Project</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-1.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-1.png" alt="Create a new project" /></p>
 
 <p>Click <strong>Next</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-2.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-2.png" alt="Create a new project" /></p>
 
 <p>Enter a project name, then click <strong>Next</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-3.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-3.png" alt="Create a new project" /></p>
 
 <p>Choose <strong>RTL project</strong>, then click <strong>Next</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-4.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-4.png" alt="Create a new project" /></p>
 
 <p>Click <strong>Next</strong>, we’ll add sources later.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-5.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-5.png" alt="Create a new project" /></p>
 
 <p>Click <strong>Next</strong>, we don’t need to add any IP.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-6.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-6.png" alt="Create a new project" /></p>
 
 <p>Click <strong>Next</strong>, no constraints needed yet.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-7.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-7.png" alt="Create a new project" /></p>
 
 <p>Click <strong>Boards</strong> and choose <strong>PicoZed 7030 SOM + Carrier</strong>, this is one of the boards we added in the previous note.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-8.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-8.png" alt="Create a new project" /></p>
 
 <p>Finally, check everything is OK and click <strong>Finish</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-9.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-9.png" alt="Create a new project" /></p>
 
 <p>We’re now presented with the workspace. Click <strong>create block design</strong> in the left hand navigator to add a new block to the project.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-10.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-10.png" alt="Create a new project" /></p>
 
 <p>A dialog will pop-up, choose a block design name and click <strong>OK</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-11.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-11.png" alt="Create a new project" /></p>
 
 <p>In the top right of the application, a black block design will open. Right click on this and click <strong>Add IP</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-12.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-12.png" alt="Create a new project" /></p>
 
 <p>Type <em>zynq</em> and when <strong>ZYNQ7 Processing System</strong> is highlighted hit <strong>Enter</strong>. This will place the Zynq hardware macro into the design.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-13.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-13.png" alt="Create a new project" /></p>
 
 <p>Click <strong>Run Block Automation</strong> link in the banner at the top of the design canvas. <a href="http://www.xilinx.com/support/documentation/sw_manuals/xilinx2015_1/ug994-vivado-ip-subsystems.pdf">UG994</a> describes block automation in more detail:</p>
 
@@ -96,13 +96,13 @@ processor such as the Zynq® Processing System 7 or MicroBlaze™ processor, or 
 hierarchical IP such as an Ethernet is instantiated in the IP integrator block design.</p>
 </blockquote>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-14.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-14.png" alt="Create a new project" /></p>
 
 <p>The <strong>Run Block Automation</strong> dialog opens, no need to change anything, click <strong>OK</strong>.</p>
 
-<p><img src="/zynq-cast-1/assets/note-5/create-vivado-15.png" alt="Create a new project" /></p>
+<p><img src="/zynq-notes/assets/note-5/create-vivado-15.png" alt="Create a new project" /></p>
 
-<p><a href="/zynq-cast-1/4-adding-board-files">Previous Note</a> - Coming Soon</p>
+<p><a href="/zynq-notes/4-adding-board-files">Previous Note</a> - Coming Soon</p>
 
 
 
