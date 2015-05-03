@@ -35,4 +35,4 @@ The board files should be visible in the `/opt/Xilinx/Vivado/2015.1/data/boards/
 
 Now we're ready to make the first Vivado project! 
 
-[Previous Note]({% post_url 2015-05-02-3-running-vivado %}) - [Next Note]({% post_url 2015-05-02-5-creating-a-project %})
+[Previous Note]({{site.baseurl}}/3-running-vivado) - [Next Note]({{site.baseurl}}/5-creating-a-project)

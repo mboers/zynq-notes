@@ -44,5 +44,5 @@ Looks good, click next to download and install.
 
 We're done! Check the next post about running Vivado and creating a project.
 
-[Previous Note]({% post_url 2015-05-02-1-installing-ubuntu %}) - [Next Note]({% post_url 2015-05-02-3-running-vivado %})
+[Previous Note]({{site.baseurl}}/1-installing-ubuntu) - [Next Note]({{site.baseurl}}/3-running-vivado)
 

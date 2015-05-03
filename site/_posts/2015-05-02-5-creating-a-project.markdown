@@ -77,5 +77,5 @@ The __Run Block Automation__ dialog opens, no need to change anything, click __O
 
 ![Create a new project]({{ site.baseurl }}/assets/note-5/create-vivado-15.png)
 
-[Previous Note]({% post_url 2015-05-02-4-adding-board-files %}) - 
+[Previous Note]({{site.baseurl}}/4-adding-board-files) - Coming Soon
 

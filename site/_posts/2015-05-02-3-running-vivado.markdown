@@ -40,4 +40,4 @@ Vivado starts up and we're ready to program!
 
 ![Run these commands]({{ site.baseurl }}/assets/note-3/run-vivado-2.png)
 
-[Previous Note]({% post_url 2015-05-02-2-installing-vivado %}) - [Next Note]({% post_url 2015-05-02-4-adding-board-files %})
+[Previous Note]({{site.baseurl}}/2-installing-vivado) - [Next Note]({{site.baseurl}}/4-adding-board-files)

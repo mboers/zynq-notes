@@ -20,4 +20,4 @@ sudo apt-get autoremove
 sudo apt-get upgrade
 {% endhighlight %}
 
-[Next Note]({% post_url 2015-05-02-2-installing-vivado %})
+[Next Note]({{site.baseurl}}/2-installing-vivado)
